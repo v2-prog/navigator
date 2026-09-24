@@ -1,0 +1,28 @@
+{
+  "name": "AcerLab Navigator",
+  "short_name": "Navigator",
+  "description": "Money literacy and shared-living pathways — Australia only. Education, not advice.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f6f3ec",
+  "theme_color": "#2F5D4F",
+  "lang": "en-AU",
+  "categories": ["education", "finance", "lifestyle"],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
