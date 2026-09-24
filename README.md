@@ -15,6 +15,8 @@ Structure Lab AU already holds trusts, CGT flags, CLT vs family-trust forks. Nav
 
 Calculators stay in the browser. No bank feeds. No lead capture. Treasurer desk is a local pass-phrase over `localStorage`, not a multi-user backend.
 
+September 2026 refresh: calculator inputs persist on-device; compound sketch draws a year-path; structures open with a comparison matrix; zoning copies a council-email draft; progress can download a local JSON note; glossary and directory expanded.
+
 ## GitHub + Cloudflare
 
 | Role | URL |
@@ -30,7 +32,7 @@ Cloudflare account: **Amarwakara@gmail.com** (zone `acerlab.link`).
 
 ### Pages settings
 
-1. Workers & Pages → Create → Connect to Git → **v2-prog/navigator**, branch `main`.
+1. Workers & Pages \u2192 Create \u2192 Connect to Git \u2192 **v2-prog/navigator**, branch `main`.
 2. Framework preset: None. Build command: empty. Output directory: `/`.
 3. Custom domain: `navigator.acerlab.link` (add a CNAME in the acerlab.link zone).
 4. Do not attach `earthacer.in`.
@@ -45,9 +47,9 @@ python3 -m http.server 8080
 
 ## Prompt adjustments made while building
 
-- Jurisdiction pack is Australia-only (ACT default), matching Structure Lab — not a generic multi-country zoning engine.
+- Jurisdiction pack is Australia-only (ACT default), matching Structure Lab \u2014 not a generic multi-country zoning engine.
 - No server-side member database. Progress and treasurer extras stay on-device so sensitive money data is never stored by us.
-- Wage module is labelled a sketch (marginal rates + Medicare levy only). Caps shown as FY2025–26 illustrations.
+- Wage module is labelled a sketch (marginal rates + Medicare levy only). Caps shown as FY2025\u201326 illustrations.
 - Zoning output is a council-email draft, not a determination.
 - Asset-lock warning is repeated: a CLT/charity is not a family discretionary trust.
 - Admin engagement is anonymised page-open counts in this browser, not a group analytics product.
@@ -55,8 +57,8 @@ python3 -m http.server 8080
 
 ## Files
 
-- `index.html` — shell
-- `app.css` — brand
-- `data.js` — copy, caps, structures, directory
-- `app.js` — hash router, calculators, treasurer desk
-- `wrangler.toml` — Pages hint
+- `index.html` \u2014 shell
+- `app.css` \u2014 brand
+- `data.js` \u2014 copy, caps, structures, directory
+- `app.js` \u2014 hash router, calculators, treasurer desk
+- `wrangler.toml` \u2014 Pages hint
